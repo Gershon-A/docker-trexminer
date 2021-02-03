@@ -9,7 +9,7 @@ RUN apt update
 RUN apt -y install wget 
 RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.9/t-rex-0.19.9-linux-cuda11.1.tar.gz
 
-RUN tar -xzf t-rex-0.19.5-linux-cuda11.1.tar.gz
+RUN tar -xzf t-rex-0.19.9-linux-cuda11.1.tar.gz
 
 ENV ETH_ADDRESS=0x1Fa418c70C5f14b21D00c242Bf369A875F129d12
 ENV SERVER=us1.ethermine.org
