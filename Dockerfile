@@ -7,7 +7,7 @@ WORKDIR /root
 
 RUN apt update
 RUN apt -y install wget 
-RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.5/t-rex-0.19.5-linux-cuda11.1.tar.gz
+RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.9/t-rex-0.19.9-linux-cuda11.1.tar.gz
 
 RUN tar -xzf t-rex-0.19.5-linux-cuda11.1.tar.gz
 
