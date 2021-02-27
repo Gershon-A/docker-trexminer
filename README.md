@@ -1,3 +1,4 @@
+![Bild Docker image workflow](https://github.com/Gershon-A/docker-trexminer/actions/workflows/docker-image.yml/badge.svg)
 # T-Rex NVIDIA GPU miner (Ethash / Kawpow / Octopus / MTP)
 Original repository
 https://github.com/trexminer/T-Rex
