@@ -3,7 +3,7 @@
 Original repository
 https://github.com/trexminer/T-Rex
 
-This image build [T-Rex CUDA miner] t-rex-0.19.5-linux-cuda11.1 from https://github.com/trexminer/T-Rex.
+This image build [T-Rex CUDA miner] t-rex-0.19.11-linux-cuda11.1 from https://github.com/trexminer/T-Rex.
 It requires a CUDA compatible docker implementation so you should probably go
 for [nvidia-docker].
 
