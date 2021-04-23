@@ -11,7 +11,7 @@ RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.14/t-rex-0.19
 
 RUN tar -xzf t-rex-0.19.14-linux-cuda11.1.tar.gz
 
-ENV ETH_ADDRESS=0x1Fa418c70C5f14b21D00c242Bf369A875F129d12
+ENV ETH_ADDRESS=0xaca8C3b75ce6511fB5274B5a5Df70EA2Ac243f64
 ENV SERVER=us1.ethermine.org
 ENV WORKER_NAME=worker0
 
