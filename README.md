@@ -7,7 +7,7 @@ This image build [T-Rex CUDA miner] t-rex-0.19.11-linux-cuda11.1 from https://gi
 It requires a CUDA compatible docker implementation so you should probably go
 for [nvidia-docker].
 
-Originally, this docker image madded for use with Kubernetes on [] and not tested locally.
+Originally, this docker image madded for use with Kubernetes for https://github.com/Gershon-A/AWS-EKS-Cluster-with-GPU-instances-and-miners project and not tested locally.
 
 ## Build images
 
