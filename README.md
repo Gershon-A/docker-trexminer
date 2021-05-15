@@ -8,7 +8,8 @@ It requires a CUDA compatible docker implementation so you should probably go
 for [nvidia-docker].
 
 Originally, this docker image madded for use with Kubernetes for https://github.com/Gershon-A/AWS-EKS-Cluster-with-GPU-instances-and-miners project and not tested locally.
-
+## Get pre built image
+https://hub.docker.com/r/gershona/t-rex
 ## Build images
 
 ```
