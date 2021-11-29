@@ -5,15 +5,13 @@ LABEL Gershon <gershon@medooza.io>
 
 WORKDIR /root
 
+ENV version=0.24.7 
+
 RUN apt update
 RUN apt -y install wget 
-RUN wget https://trex-miner.com/download/t-rex-0.19.14-linux-cuda11.1.tar.gz
+RUN wget https://trex-miner.com/download/t-rex-$version-linux-cuda11.1.tar.gz
 
 RUN tar -xzf t-rex-0.19.14-linux-cuda11.1.tar.gz
-
-ENV ETH_ADDRESS=0x1Fa418c70C5f14b21D00c242Bf369A875F129d12
-ENV SERVER=us1.ethermine.org
-ENV WORKER_NAME=worker0
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
