@@ -1,0 +1,13 @@
+version: "2"
+services:
+  miner:
+    build: .
+    image: gleamingbamboo/docker:0.24.7
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    ports:
+      - "4067:4067"
+    restart: always
