@@ -2,7 +2,13 @@ version: "2"
 services:
   miner:
     build: .
-    image: gleamingbamboo/docker:0.24.7
+    image: gleamingbamboo/t-rex:latest
+    env_file:
+      - .env
+    environment:
+      - SERVER=1
+      - ETH_ADDRESS
+      - WORKER_NAME
     deploy:
       resources:
         reservations:
@@ -10,4 +16,5 @@ services:
             - capabilities: [gpu]
     ports:
       - "4067:4067"
+    command: ["-a ethash","-o stratum+tcp://${SERVER}", "-u ${ETH_ADDRESS}", "-p x", "-w ${WORKER_NAME}"]
     restart: always
