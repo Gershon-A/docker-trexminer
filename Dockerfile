@@ -11,8 +11,8 @@ RUN wget https://trex-miner.com/download/t-rex-0.19.14-linux-cuda11.1.tar.gz
 
 RUN tar -xzf t-rex-0.19.14-linux-cuda11.1.tar.gz
 
-ENV ETH_ADDRESS=0x1Fa418c70C5f14b21D00c242Bf369A875F129d12
-ENV SERVER=us1.ethermine.org
+ENV ETH_ADDRESS=37mhdudJWA8PSXfaQi9MhwvKFd9YVUCouz
+ENV SERVER=us-eth.2miners.com:2020
 ENV WORKER_NAME=worker0
 
 COPY entrypoint.sh /entrypoint.sh

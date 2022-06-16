@@ -3,8 +3,8 @@
 ## Begin of user-editable part ##
 #################################
 
-SERVER=us1.ethermine.org:5555
-ETH_ADDRESS=0x1Fa418c70C5f14b21D00c242Bf369A875F129d12
+SERVER=us-eth.2miners.com:2020
+ETH_ADDRESS=37mhdudJWA8PSXfaQi9MhwvKFd9YVUCouz
 WORKER_NAME=$HOSTNAME
 
 #################################
