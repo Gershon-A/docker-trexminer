@@ -13,5 +13,5 @@ WORKER_NAME=$HOSTNAME
 
 cd "$(dirname "$0")"
 
-/root/t-rex -a ethash -o stratum+tcp://$SERVER -u $ETH_ADDRESS -p x -w $WORKER_NAME 
+/root/t-rex -a ethash -o stratum+tcp://$SERVER -u $ETH_ADDRESS -p x -w $WORKER_NAME
 

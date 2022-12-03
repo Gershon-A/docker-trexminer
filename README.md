@@ -4,7 +4,7 @@
 Original repository
 https://github.com/trexminer/T-Rex
 
-This image build [T-Rex CUDA miner] t-rex-0.19.14-linux-cuda11.1 from https://trex-miner.com/.
+This image build [T-Rex CUDA miner] t-rex-0.26.8 from https://trex-miner.com/.
 It requires a CUDA compatible docker implementation so you should probably go
 for [nvidia-docker].
 
@@ -95,7 +95,7 @@ You can check CUDA usage enter to running container and run `nvidia-smi` there:
 
 ```
 nvidia-smi
-Sat Jan  9 12:17:02 2021       
+Sat Jan  9 12:17:02 2021
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 450.51.06    Driver Version: 450.51.06    CUDA Version: 11.1     |
 |-------------------------------+----------------------+----------------------+
@@ -107,7 +107,7 @@ Sat Jan  9 12:17:02 2021
 | N/A   49C    P0    73W / 150W |   7618MiB /  7618MiB |    100%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
-                                                                               
+
 +-----------------------------------------------------------------------------+
 | Processes:                                                                  |
 |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
